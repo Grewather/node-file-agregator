@@ -4,11 +4,11 @@ const path = require("path");
 const fs = require("fs");
 
 const userAcc = `C:/Users/${os.userInfo().username}`;
-// paths to folders where files should be copied
+// paths to folders where files should be copied, you need to change this
 const docsFolder = `${userAcc}/Desktop/foldery/documents`;
 const imgFolder = `${userAcc}/Desktop/foldery/Images`;
 const systemFolder = `${userAcc}/Desktop/foldery/System`;
-const appFolder = `${userAcc}/Desktop/foldery/Apps`
+const appFolder = `${userAcc}/Desktop/foldery/Apps`;
 
 const imageExtensions = [".png", ".jpg", ".jpeg", ".gif", ".bmp", ".tiff", ".tif", ".webp", ".svg", "JFIF"];
 const docsExtension = [
