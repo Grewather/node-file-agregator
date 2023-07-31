@@ -11,7 +11,7 @@ node-file-agregator is script that categorizes downloaded files based on their e
 First, download this Project
 
 ```bash
-  git clone https://github.com/Grewather/node-file-agregator.git
+git clone https://github.com/Grewather/node-file-agregator.git
 ```
 Then install the packages
 ```bash
